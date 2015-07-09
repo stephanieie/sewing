@@ -1,0 +1,123 @@
+body {
+	
+	background-color: #FFFFFF;
+	font-family: "Roboto", sans-serif;
+	padding-bottom: 30px;
+	line-height:1.7em;
+}
+
+.section {
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+.container {
+
+	max-width: 900px;
+	margin: 0 auto;
+
+}
+
+.section-top {
+	padding-top: 30px;
+}
+
+#about {
+	background-color: #F2F2F2;
+
+}
+
+#classes {
+	background-color: #F2F2F2;
+
+}
+
+#contact {
+	background-color: #F2F2F2;
+
+}
+
+.fixed-nav-bar {
+		position: fixed;
+		padding-top: 10px;
+		padding-bottom: 10px;
+  		top: 0;
+  		left: 0;
+  		z-index: 9999;
+  		width: 100%;
+  		background-color: #FFFFFF;
+  		text-align: center;
+  		font-size: 1.2em;
+  		border-bottom: dashed;
+ }
+
+	.fixed-nav-bar a {
+		color: black;
+		text-decoration: none ;
+	}
+
+	.fixed-nav-bar a:visited {
+		color: black;
+		text-decoration: none ;
+	}
+
+	.fixed-nav-bar a:hover {
+		color:#0000FF;
+	}
+
+#about a {
+	color: black;
+}
+
+#about a:hover {
+	color: 375FEE;
+}
+
+.pubtitle {
+ 	font-style: italic;
+}
+
+.timeline {
+	font-weight: bold;
+}
+
+#contact i {
+	padding: 20px;
+	color: black;
+}
+
+#contact i:hover {
+	color: 0000FF;
+}
+
+#stuff img {
+	width: 300px;
+	height: relative;
+
+}
+
+#stuff img:hover {
+	cursor: pointer;
+}
+
+#contact a {
+	color: black;
+}
+
+#contact a:hover {
+	color: 0000FF;
+}
+
+footer {
+	text-align:center;
+	padding-top: 50px;
+}
+
+footer i {
+	padding: 10px;
+	color: black;
+}
+
+footer img {
+	padding: 10px;
+}
