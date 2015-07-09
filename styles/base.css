@@ -6,6 +6,10 @@ body {
 	line-height:1.7em;
 }
 
+h2 {
+	text-align:center;
+}
+
 .section {
 	padding-top: 50px;
 	padding-bottom: 50px;
