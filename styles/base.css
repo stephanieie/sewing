@@ -32,12 +32,17 @@ h2 {
 
 }
 
-#classes {
+#showroom {
 	background-color: #F2F2F2;
 
 }
 
-#contact {
+#service {
+	background-color: #F2F2F2;
+
+}
+
+#FAQ {
 	background-color: #F2F2F2;
 
 }
@@ -93,16 +98,6 @@ h2 {
 
 #contact i:hover {
 	color: 0000FF;
-}
-
-#stuff img {
-	width: 300px;
-	height: relative;
-
-}
-
-#stuff img:hover {
-	cursor: pointer;
 }
 
 #contact a {
