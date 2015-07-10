@@ -24,7 +24,7 @@ h2 {
 }
 
 #home {
-	padding-top: 50px;
+	padding-top: 40px;
 }
 
 .section-top {
@@ -37,21 +37,26 @@ h2 {
 }
 
 .section-top h1 {
-	font-size: 3em;
+	font-family: "Tinos", serif;
+	font-size: 4em;
+	font-weight: bold;
 	color: #ddd;
-	background-color: rgba(0,0,0,0.8);
-	padding : 20px;
-	border-radius : 0px;
+	background-color: rgba(0,0,0,0.7);
+	padding : 40px;
+	border-radius : 10px;
 	display: inline-block;
+	line-height: 0.8em;
 }
 
 .section-top h2 {
-	font-size: 1.6em;
+	font-family: "Tinos", serif;
+	font-size: 2em;
 	color: #ddd;
-	background-color: rgba(0,0,0,0.8);
-	padding : 20px;
-	border-radius : 0px;
+	background-color: rgba(0,0,0,0.7);
+	padding : 40px;
+	border-radius : 10px;
 	display: inline-block;
+	line-height: 0.8em;
 }
 
 #about {
