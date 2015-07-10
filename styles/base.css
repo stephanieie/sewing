@@ -31,7 +31,7 @@ h2 {
 	background-image : url('../janome-mc-15000.jpg');
 	background-position: center center;
 	height: 550px;
-	padding-top: 110px;
+	padding-top: 100px;
 	background-size : cover;
 	text-align: center;
 }
@@ -87,7 +87,7 @@ h2 {
   		left: 0;
   		z-index: 9999;
   		width: 100%;
-  		background-color: #FFFFFF;
+  		background-color: #F2F2F2;
   		text-align: center;
   		font-size: 1.2em;
   		border-bottom: dashed;
