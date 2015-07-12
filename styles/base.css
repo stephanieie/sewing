@@ -4,6 +4,7 @@ body {
 	font-family: "Roboto", sans-serif;
 	padding-bottom: 30px;
 	line-height:1.7em;
+	font-weight:300;
 }
 
 h2 {
@@ -42,8 +43,8 @@ h2 {
 	font-size: 4em;
 	font-weight: bold;
 	color: #ddd;
-	background-color: rgba(0,0,0,0.7);
-	padding : 40px;
+	background-color: rgba(0,0,0,0.5);
+	padding : 8px;
 	border-radius : 10px;
 	display: inline-block;
 	line-height: 0.8em;
@@ -53,8 +54,8 @@ h2 {
 	font-family: "Tinos", serif;
 	font-size: 2em;
 	color: #ddd;
-	background-color: rgba(0,0,0,0.7);
-	padding : 40px;
+	background-color: rgba(0,0,0,0.5);
+	padding : 8px;
 	border-radius : 10px;
 	display: inline-block;
 	line-height: 0.8em;
@@ -140,6 +141,7 @@ h2 {
 #contact a:hover {
 	color: 0000FF;
 }
+
 
 footer {
 	text-align:center;
