@@ -76,6 +76,10 @@ h2 {
 
 }
 
+#service img {
+	width: 100%;
+}
+
 #FAQ {
 	background-color: #F2F2F2;
 
