@@ -40,10 +40,10 @@ h2 {
 
 .section-top h1 {
 	font-family: "Tinos", serif;
-	font-size: 4em;
+	font-size: 5em;
 	font-weight: bold;
-	color: #ddd;
-	background-color: rgba(0,0,0,0.5);
+	color: #FFFFFF;
+	background-color: rgba(0,0,0,0.4);
 	padding : 8px;
 	border-radius : 10px;
 	display: inline-block;
@@ -52,13 +52,13 @@ h2 {
 
 .section-top h2 {
 	font-family: "Tinos", serif;
-	font-size: 2em;
-	color: #ddd;
-	background-color: rgba(0,0,0,0.5);
+	font-size: 3em;
+	color: #FFFFFF;
+	background-color: rgba(0,0,0,0.4);
 	padding : 8px;
 	border-radius : 10px;
 	display: inline-block;
-	line-height: 0.8em;
+	line-height: 1em;
 }
 
 #about {
