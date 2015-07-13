@@ -76,8 +76,14 @@ h2 {
 
 }
 
-#service img {
-	width: 100%;
+#service-image img {
+	width: 80%;
+	display: inline-block;
+	margin: auto;
+}
+
+#service-image p {
+	text-align: center;
 }
 
 #FAQ {
