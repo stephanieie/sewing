@@ -32,11 +32,11 @@ h2 {
 .section-top {
 	background-image : url('../janome-mc-15000.jpg');
 	background-position: center center;
-	height: 550px;
+	height: 100%;
 	padding-top: 100px;
 	background-size : cover;
 	text-align: center;
-	max-width: 966px;
+	margin: auto;
 }
 
 .section-top h1 {
