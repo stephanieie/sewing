@@ -42,6 +42,7 @@ h2 {
 .section-top h1 {
 	font-family: "Tinos", serif;
 	font-size: 5em;
+	letter-spacing: 2px;
 	font-weight: bold;
 	color: #FFFFFF;
 	background-color: rgba(0,0,0,0.4);
@@ -54,6 +55,7 @@ h2 {
 .section-top h2 {
 	font-family: "Tinos", serif;
 	font-size: 3em;
+	letter-spacing: 2px;
 	color: #FFFFFF;
 	background-color: rgba(0,0,0,0.4);
 	padding : 8px;
@@ -151,6 +153,27 @@ h2 {
 
 #contact a:hover {
 	color: 0000FF;
+}
+
+.contact-text {
+	display: inline-block;
+	width: 40%;
+	vertical-align: middle;
+	padding-left: 30px;
+	min-width: 250px;
+
+}
+
+.google-map {
+	vertical-align: middle;
+}
+
+.question {
+	font-weight: bold;
+}
+
+.question-body {
+	font-style: italic;
 }
 
 footer {
