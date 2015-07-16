@@ -160,12 +160,25 @@ h2 {
 	width: 40%;
 	vertical-align: middle;
 	padding-left: 30px;
-	min-width: 250px;
-
 }
 
 .google-map {
 	vertical-align: middle;
+	width: 50%; 
+	height: 50%; 
+	display: inline-block;
+	border: 0;
+}
+
+@media (max-width: 400px) {
+		.contact-text {
+			width: 100%;
+			padding-left: 0px;
+		}
+
+		.google-map {
+			width: 100%; 
+		}
 }
 
 .question {
