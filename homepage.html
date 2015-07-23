@@ -4,13 +4,15 @@
 
 	<title>K-W Sewing Machines Ltd. | Sewing Supplies | Sewing Machine Repairs | Kitchener-Waterloo</title>
 
-
+	<!-- <link rel="stylesheet" href="libraries/skeleton.css"> -->
 	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
 	<link rel="stylesheet" href="styles/base.css">
 	<link href='http://fonts.googleapis.com/css?family=Roboto:100,300' rel='stylesheet' type='text/css'>
 	<link href='http://fonts.googleapis.com/css?family=Tinos' rel='stylesheet' type='text/css'>
 	<script src='https://code.jquery.com/jquery-2.1.4.min.js'></script>
-	<script src='javascript/jquery.sticky.js'></script>
+	<script src='libraries/jquery.sticky.js'></script>
+	<link rel="stylesheet" href="styles/normalize.css">
+	<script src="libraries/jquery.scrollto.min.js"></script>
 
 </head>
 
@@ -32,14 +34,14 @@
 
 <nav class="nav-bar" id="main-nav">
 
-		<i class="fa fa-home"></i> <a href="#home">Home</a> | 
-		<i class="fa fa-pencil"></i> <a href="#about">About Us</a> | 
-		<i class="fa fa-newspaper-o"></i> <a href="#news">News</a> |
-		<i class="fa fa-shopping-cart"></i> <a href="#showroom">Our Showroom</a> | 
-		<i class="fa fa-calendar"></i> <a href="#classes">Sewing Classes</a> | 
-		<i class="fa fa-gear"></i> <a href="#service">Service and Repairs</a> | 
-		<i class="fa fa-envelope-o"></i> <a href="#contact">Contact</a> | 
-		<i class="fa fa-question-circle"></i> <a href="#FAQ">FAQ</a>
+		<i class="fa fa-home"></i> <a class="home-click">Home</a> | 
+		<i class="fa fa-pencil"></i> <a class="about-click">About Us</a> | 
+		<i class="fa fa-newspaper-o"></i> <a class="news-click">News</a> |
+		<i class="fa fa-shopping-cart"></i> <a class"showroom-click">Our Showroom</a> | 
+		<i class="fa fa-calendar"></i> <a class="classes-click">Sewing Classes</a> | 
+		<i class="fa fa-gear"></i> <a class="service-click">Service and Repairs</a> | 
+		<i class="fa fa-envelope-o"></i> <a class="classes-click">Contact</a> | 
+		<i class="fa fa-question-circle"></i> <a class="FAQ-click">FAQ</a>
   	
 	</nav>
 
@@ -251,7 +253,25 @@
 	</div>
 
 	<script>
+
+		//STICKY NAV//
+
     	$("#main-nav").sticky({topSpacing:0});
+
+    	//SLOW SCROLL//
+
+    	$('.home-click').click(function(){
+    		$.scrollTo( $('#home'), 750 )
+    	})
+
+    		$('.about-click').click(function(){
+    		$.scrollTo( $('#about'), 750 )
+    	})
+
+    			$('.news-click').click(function(){
+    		$.scrollTo( $('#news'), 750 )
+    	})
+
 	</script>
 
 </body>
