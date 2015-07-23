@@ -9,12 +9,28 @@
 	<link rel="stylesheet" href="styles/base.css">
 	<link href='http://fonts.googleapis.com/css?family=Roboto:100,300' rel='stylesheet' type='text/css'>
 	<link href='http://fonts.googleapis.com/css?family=Tinos' rel='stylesheet' type='text/css'>
+	<script src='https://code.jquery.com/jquery-2.1.4.min.js'></script>
+	<script src='javascript/jquery.sticky.js'></script>
 
 </head>
 
 <body>
 
-	<nav class="fixed-nav-bar">
+<!--TOP OF PAGE INCLUDING MC15000 PICTURE AND STORE NAME-->
+
+<div id="home">	
+
+	<div class="section-top">
+
+		<p><h1>K-W SEWING MACHINES</h1></p>
+
+		<h2><a href="#showroom">Sales</a> | <a href="#service">Service</a> | <a href="#service">Parts</a></h2>
+
+	</div>
+
+</div>
+
+<nav class="nav-bar" id="main-nav">
 
 		<i class="fa fa-home"></i> <a href="#home">Home</a> | 
 		<i class="fa fa-pencil"></i> <a href="#about">About Us</a> | 
@@ -27,19 +43,6 @@
   	
 	</nav>
 
-<!--TOP OF PAGE INCLUDING MC15000 PICTURE AND STORE NAME-->
-
-<div id="home">	
-
-	<div class="section-top">
-
-		<p><h1>K-W SEWING MACHINES</h1></p>
-
-		<h2>Sales | Service | Parts</h2>
-
-	</div>
-
-</div>
 
 <!--ABOUT US-->
 
@@ -210,8 +213,9 @@
 				<p>We are located in Frederick Mall, closest to the entrance beside Valu-Mart&reg;.</p>
 				<p>385 Frederick St, Kitchener, ON N2H 2P2</p>
 
-				<p><a href="mailto:kwsewingmachines@gmail.com"><i class="fa fa-envelope fa-5x"></i></a>
-				<a href="https://www.facebook.com/kwsewingmachines" target="_blank"><i class="fa fa-facebook fa-5x"></i></a></p>
+					<p><a href="mailto:kwsewingmachines@gmail.com"><i class="fa fa-envelope fa-5x"></i></a>
+					<a href="https://www.facebook.com/kwsewingmachines" target="_blank"><i class="fa fa-facebook fa-5x"></i></a></p>
+
 
 			</div>
 
@@ -245,6 +249,10 @@
 		</div>
 
 	</div>
+
+	<script>
+    	$("#main-nav").sticky({topSpacing:0});
+	</script>
 
 </body>
 

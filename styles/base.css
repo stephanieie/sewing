@@ -25,9 +25,9 @@ h2 {
 
 }
 
-#home {
+/*#home {
 	padding-top: 40px;
-}
+}*/
 
 .section-top {
 	background-image : url('../janome-mc-15000.jpg');
@@ -64,6 +64,11 @@ h2 {
 	line-height: 1em;
 }
 
+.section-top a {
+	color: white;
+	text-decoration: none;
+}
+
 #about {
 	background-color: #F2F2F2;
 
@@ -94,32 +99,29 @@ h2 {
 
 }
 
-.fixed-nav-bar {
-		position: fixed;
+.nav-bar {
 		padding-top: 10px;
 		padding-bottom: 10px;
-  		top: 0;
-  		left: 0;
   		z-index: 9999;
   		width: 100%;
-  		background-color: #F2F2F2;
+  		background-color: #FFF;
   		text-align: center;
   		font-size: 1.2em;
   		border-bottom: dashed;
  }
 
-	.fixed-nav-bar a {
+	.nav-bar a {
 		color: black;
 		text-decoration: none ;
 	}
 
-	.fixed-nav-bar a:visited {
+	.nav-bar a:visited {
 		color: black;
 		text-decoration: none ;
 	}
 
-	.fixed-nav-bar a:hover {
-		color:#0000FF;
+	.nav-bar a:hover {
+		color: #2E9AFE;
 	}
 
 #about a {
@@ -127,7 +129,7 @@ h2 {
 }
 
 #about a:hover {
-	color: 375FEE;
+	color: #2E9AFE;
 }
 
 .pubtitle {
@@ -144,7 +146,7 @@ h2 {
 }
 
 #contact i:hover {
-	color: 0000FF;
+	color: #2E9AFE;
 }
 
 #contact a {
@@ -152,7 +154,7 @@ h2 {
 }
 
 #contact a:hover {
-	color: 0000FF;
+	color: #2E9AFE;
 }
 
 .contact-text {
