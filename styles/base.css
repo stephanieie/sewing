@@ -19,11 +19,13 @@ h2 {
 .section {
 	padding-top: 50px;
 	padding-bottom: 50px;
+	margin-left: 10px;
+	margin-right: 10px;
 }
 
 .container {
 
-	max-width: 900px;
+	max-width: 70%;
 	margin: 0 auto;
 	padding: 0 20;
 
@@ -84,14 +86,19 @@ h2 {
 	vertical-align: middle;
 	width: 45%;
 	border: 0;
-	margin-left: 40px;
+	padding-left: 30px;
+}
+
+.news-title {
+	font-weight: bold;
+	font-style: italic;
 }
 
 .news-text {
 	display: inline-block;
 	width: 45%;
 	vertical-align: middle;
-	margin-left: 30px;
+	padding-left: 30px;
 }
 
 #service {
