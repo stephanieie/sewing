@@ -110,6 +110,7 @@ h2 {
 	width: 80%;
 	display: inline-block;
 	margin: auto;
+	border: dashed;
 }
 
 #service-image p {
@@ -191,7 +192,7 @@ h2 {
 	width: 50%; 
 	height: 50%; 
 	display: inline-block;
-	border: 0;
+	border: dashed;
 }
 
 @media (max-width: 400px) {
