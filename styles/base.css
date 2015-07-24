@@ -29,10 +29,6 @@ h2 {
 
 }
 
-/*#home {
-	padding-top: 40px;
-}*/
-
 .section-top {
 	background-image : url('../janome-mc-15000.jpg');
 	background-position: center center;
@@ -81,6 +77,21 @@ h2 {
 #showroom {
 	background-color: #F2F2F2;
 
+}
+
+.news-photo {
+	display: inline-block;
+	vertical-align: middle;
+	width: 45%;
+	border: 0;
+	margin-left: 40px;
+}
+
+.news-text {
+	display: inline-block;
+	width: 45%;
+	vertical-align: middle;
+	margin-left: 30px;
 }
 
 #service {
