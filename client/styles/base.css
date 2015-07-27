@@ -66,6 +66,16 @@ h2 {
 	line-height: 1em;
 }
 
+.section-top i {
+	color: #FFFFFF;
+	background-color: rgba(0,0,0,0.4);
+	padding: 5px;
+	border-radius : 100px;
+	display: inline-block;
+	line-height: 1em;
+	margin-top: 30px;
+}
+
 .section-top a {
 	color: white;
 	text-decoration: none;
