@@ -7,7 +7,18 @@ body {
 	font-weight:300;
 }
 
+body a {
+	text-decoration: none;
+	color: #2E9AFE;
+}
+
+body a:visited {
+	text-decoration: none;
+	color: #2E9AFE;
+}
+
 body a:hover {
+	color: black;
 	cursor: pointer;
 }
 
@@ -21,6 +32,9 @@ h2 {
 	padding-bottom: 50px;
 	margin-left: 10px;
 	margin-right: 10px;
+	border-bottom: dashed;
+	border-color: #2E9AFE;
+	border-bottom-width: 2px;
 }
 
 .container {
@@ -90,22 +104,25 @@ h2 {
 
 }
 
-#about a {
+/*#about a {
 	text-decoration: none;
 	color: #2E9AFE;
 }
 
+#about a:hover {
+	color: black;
+}
+
 #about a:visited {
 	text-decoration: none;
-	color: #2E9AFE;
-}
+}*/
 
 #showroom {
 	background-color: #F2F2F2;
 
 }
 
-#showroom a {
+/*#showroom a {
 	text-decoration: none;
 	color: #2E9AFE;
 }
@@ -113,7 +130,7 @@ h2 {
 #showroom a:visited {
 	text-decoration: none;
 	color: #2E9AFE;
-}
+}*/
 
 .news-photo {
 	display: inline-block;
@@ -135,15 +152,19 @@ h2 {
 	padding-left: 30px;
 }
 
-#news a {
+/*#news a {
 	text-decoration: none;
 	color: #2E9AFE;
+}
+
+#news a:hover {
+	color: black;
 }
 
 #news a:visited {
 	text-decoration: none;
 	color: #2E9AFE;
-}
+}*/
 
 #service {
 	background-color: #F2F2F2;
@@ -154,17 +175,43 @@ h2 {
 	width: 80%;
 	display: inline-block;
 	margin: auto;
-	border: dashed;
+	/*border: dashed;*/
 }
 
 #service-image p {
 	text-align: center;
 }
+/*
+#service a {
+	text-decoration: none;
+	color: #2E9AFE;
+}
+
+#service a:hover {
+	color: black;
+}
+
+#service a:visited {
+	text-decoration: none;
+}*/
 
 #FAQ {
 	background-color: #F2F2F2;
 
 }
+
+/*#FAQ a {
+	text-decoration: none;
+	color: #2E9AFE;
+}
+
+#FAQ a:hover {
+	color: black;
+}
+
+#FAQ a:visited {
+	text-decoration: none;
+}*/
 
 .nav-bar {
 		padding-top: 10px;
@@ -175,6 +222,7 @@ h2 {
   		text-align: center;
   		font-size: 1.2em;
   		border-bottom: dashed;
+  		border-bottom-width: 2px;
  }
 
 	.nav-bar a {
@@ -203,18 +251,21 @@ h2 {
 #contact i:hover {
 	color: #2E9AFE;
 }
-
+/*
 #contact a {
-	color: black;
-}
-
-#contact a:hover {
 	color: #2E9AFE;
 }
 
+#contact a:hover {
+	color: black;
+}
+
+#contact a:visited {
+	color: #2E9AFE;*/
+}
 .contact-text {
 	display: inline-block;
-	width: 40%;
+	width: 20%;
 	vertical-align: middle;
 	padding-left: 30px;
 }
@@ -224,7 +275,7 @@ h2 {
 	width: 50%; 
 	height: 50%; 
 	display: inline-block;
-	border: dashed;
+	border: 1px;
 }
 
 @media (max-width: 400px) {
