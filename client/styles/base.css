@@ -263,20 +263,6 @@ h2 {
 #contact a:visited {
 	color: #2E9AFE;*/
 }
-.contact-text {
-	display: inline-block;
-	width: 20%;
-	vertical-align: middle;
-	padding-left: 30px;
-}
-
-.google-map {
-	vertical-align: middle;
-	width: 50%; 
-	height: 50%; 
-	display: inline-block;
-	border: 1px;
-}
 
 @media (max-width: 400px) {
 		.contact-text {
@@ -287,6 +273,21 @@ h2 {
 		.google-map {
 			width: 100%; 
 		}
+}
+
+.contact-text {
+	display: inline-block;
+	width: 40%;
+	vertical-align: middle;
+	padding-left: 30px;
+}
+
+.google-map {
+	vertical-align: middle;
+	width: 50%; 
+	height: 50%; 
+	display: inline-block;
+	border: 1px;
 }
 
 .question {
