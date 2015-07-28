@@ -81,14 +81,38 @@ h2 {
 	text-decoration: none;
 }
 
+.down-arrow i:hover {
+	color: #2E9AFE;
+}
+
 #about {
 	background-color: #F2F2F2;
 
 }
 
+#about a {
+	text-decoration: none;
+	color: #2E9AFE;
+}
+
+#about a:visited {
+	text-decoration: none;
+	color: #2E9AFE;
+}
+
 #showroom {
 	background-color: #F2F2F2;
 
+}
+
+#showroom a {
+	text-decoration: none;
+	color: #2E9AFE;
+}
+
+#showroom a:visited {
+	text-decoration: none;
+	color: #2E9AFE;
 }
 
 .news-photo {
@@ -109,6 +133,16 @@ h2 {
 	width: 45%;
 	vertical-align: middle;
 	padding-left: 30px;
+}
+
+#news a {
+	text-decoration: none;
+	color: #2E9AFE;
+}
+
+#news a:visited {
+	text-decoration: none;
+	color: #2E9AFE;
 }
 
 #service {
@@ -156,18 +190,6 @@ h2 {
 	.nav-bar a:hover {
 		color: #2E9AFE;
 	}
-
-#about a {
-	color: black;
-}
-
-#about a:hover {
-	color: #2E9AFE;
-}
-
-.pubtitle {
- 	font-style: italic;
-}
 
 .timeline {
 	font-weight: bold;
