@@ -95,6 +95,10 @@ h2 {
 	text-decoration: none;
 }
 
+.section-top a:hover {
+	color: #FFFFFF;
+}
+
 .down-arrow i:hover {
 	color: #2E9AFE;
 }
