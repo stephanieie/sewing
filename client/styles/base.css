@@ -1,8 +1,7 @@
 body {
 	
-	background-color: #FFFFFF;
+	background-image: #FFFFFF;
 	font-family: "Roboto", sans-serif;
-	padding-bottom: 30px;
 	line-height:1.7em;
 	font-weight:300;
 }
@@ -22,19 +21,30 @@ body a:hover {
 	cursor: pointer;
 }
 
+#fixed-background {
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	z-index: -9999;
+}
+
 h2 {
 	text-align: center;
 	font-size: 1.8em;
 }
 
 .section {
+	background-color: white;
 	padding-top: 50px;
 	padding-bottom: 50px;
-	margin-left: 10px;
-	margin-right: 10px;
-	border-bottom: dashed;
+	width: 90%;
+	margin: 40px auto;
 	border-color: #2E9AFE;
 	border-bottom-width: 2px;
+	-webkit-box-shadow: 1px 1px 6px 1px rgba(0,0,0,0.35);
+	-moz-box-shadow: 1px 1px 6px 1px rgba(0,0,0,0.35);
+	box-shadow: 1px 1px 6px 1px rgba(0,0,0,0.35);
 }
 
 .container {
@@ -47,7 +57,7 @@ h2 {
 
 .section-top {
 	background-image : url('../janome-mc-15000.jpg');
-	background-position: center center;
+	/*background-position: center center;*/
 	height: 100%;
 	padding-top: 100px;
 	background-size : cover;
@@ -108,33 +118,10 @@ h2 {
 
 }
 
-/*#about a {
-	text-decoration: none;
-	color: #2E9AFE;
-}
-
-#about a:hover {
-	color: black;
-}
-
-#about a:visited {
-	text-decoration: none;
-}*/
-
 #showroom {
 	background-color: #F2F2F2;
 
 }
-
-/*#showroom a {
-	text-decoration: none;
-	color: #2E9AFE;
-}
-
-#showroom a:visited {
-	text-decoration: none;
-	color: #2E9AFE;
-}*/
 
 .news-photo {
 	display: inline-block;
@@ -156,20 +143,6 @@ h2 {
 	padding-left: 30px;
 }
 
-/*#news a {
-	text-decoration: none;
-	color: #2E9AFE;
-}
-
-#news a:hover {
-	color: black;
-}
-
-#news a:visited {
-	text-decoration: none;
-	color: #2E9AFE;
-}*/
-
 #service {
 	background-color: #F2F2F2;
 
@@ -185,37 +158,12 @@ h2 {
 #service-image p {
 	text-align: center;
 }
-/*
-#service a {
-	text-decoration: none;
-	color: #2E9AFE;
-}
 
-#service a:hover {
-	color: black;
-}
-
-#service a:visited {
-	text-decoration: none;
-}*/
 
 #FAQ {
 	background-color: #F2F2F2;
 
 }
-
-/*#FAQ a {
-	text-decoration: none;
-	color: #2E9AFE;
-}
-
-#FAQ a:hover {
-	color: black;
-}
-
-#FAQ a:visited {
-	text-decoration: none;
-}*/
 
 .nav-bar {
 		padding-top: 10px;
@@ -255,18 +203,7 @@ h2 {
 #contact i:hover {
 	color: #2E9AFE;
 }
-/*
-#contact a {
-	color: #2E9AFE;
-}
 
-#contact a:hover {
-	color: black;
-}
-
-#contact a:visited {
-	color: #2E9AFE;*/
-}
 
 @media (max-width: 400px) {
 		.contact-text {
@@ -303,8 +240,17 @@ h2 {
 }
 
 footer {
-	text-align:center;
+	text-align: center;
+	padding-top: 30px;
+	backgqround-color: white;
+	padding-bottom: 30px;
 	padding-top: 50px;
+	padding-bottom: 50px;
+	width: 90%;
+	margin: auto;
+	-webkit-box-shadow: 1px 1px 6px 1px rgba(0,0,0,0.35);
+	-moz-box-shadow: 1px 1px 6px 1px rgba(0,0,0,0.35);
+	box-shadow: 1px 1px 6px 1px rgba(0,0,0,0.35);
 }
 
 footer i {
