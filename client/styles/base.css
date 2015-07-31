@@ -56,16 +56,19 @@ h2 {
 }
 
 .section-top {
-	background-image : url('../janome-mc-15000.jpg');
-	/*background-position: center center;*/
+	background: url('../mc-15000.jpg') no-repeat center center; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
 	height: 100%;
-	padding-top: 100px;
-	background-size : cover;
+/*	padding-top: 100px;*/
 	text-align: center;
 	margin: auto;
 }
 
 .section-top h1 {
+	margin-top: 120px;
 	font-family: "Tinos", serif;
 	font-size: 5em;
 	letter-spacing: 2px;
@@ -76,6 +79,15 @@ h2 {
 	border-radius : 10px;
 	display: inline-block;
 	line-height: 0.8em;
+	max-width: 80%;
+
+}
+
+@media all and (max-width: 1080px) {
+
+	.section-top {
+		font-size: 10px;
+	}
 }
 
 .section-top h2 {
@@ -98,6 +110,12 @@ h2 {
 	display: inline-block;
 	line-height: 1em;
 	margin-top: 30px;
+	-webkit-transition: all 0.3s ease;
+	-moz-transition: all 0.3s ease;
+	-ms-transition: all 0.3s ease;
+	-o-transition: all 0.3s ease;
+	transition: all 0.3s ease;
+
 }
 
 .section-top a {
@@ -128,7 +146,7 @@ h2 {
 	vertical-align: middle;
 	width: 45%;
 	border: 0;
-	padding-left: 40px;
+/*	padding-left: 40px;*/
 }
 
 .news-title {
@@ -137,10 +155,11 @@ h2 {
 }
 
 .news-text {
+	margin-left: 8%;
 	display: inline-block;
 	width: 45%;
 	vertical-align: middle;
-	padding-left: 30px;
+/*	padding-left: 30px;*/
 }
 
 #service {
@@ -242,7 +261,7 @@ h2 {
 footer {
 	text-align: center;
 	padding-top: 30px;
-	backgqround-color: white;
+	background-color: white;
 	padding-bottom: 30px;
 	padding-top: 50px;
 	padding-bottom: 50px;
