@@ -141,10 +141,14 @@ h2 {
 
 }
 
+#news {
+	text-align: center;
+}
+
 .news-photo {
 	display: inline-block;
 	vertical-align: middle;
-	width: 45%;
+	width: 30%;
 	border: 0;
 /*	padding-left: 40px;*/
 }
@@ -159,7 +163,23 @@ h2 {
 	display: inline-block;
 	width: 45%;
 	vertical-align: middle;
-/*	padding-left: 30px;*/
+	text-align: left;
+}
+
+@media all and (max-width: 600px) {
+
+		.news-text {
+			width: 100%;
+			display: block;
+			padding-left: 0px;
+			margin-left: 0%;
+
+		}
+
+		.news-photo {
+			width: 100%;
+			display: block; 
+		}
 }
 
 #service {
@@ -224,17 +244,6 @@ h2 {
 }
 
 
-@media (max-width: 400px) {
-		.contact-text {
-			width: 100%;
-			padding-left: 0px;
-		}
-
-		.google-map {
-			width: 100%; 
-		}
-}
-
 .contact-text {
 	display: inline-block;
 	width: 40%;
@@ -248,6 +257,30 @@ h2 {
 	height: 50%; 
 	display: inline-block;
 	border: 1px;
+}
+
+@media all and (max-width: 600px) {
+
+		.contact-text {
+			width: 100%;
+			display: block;
+			padding-left: 0px;
+
+		}
+
+		.contact-text p:last-of-type {
+			text-align: center;
+		}
+
+		#contact i {
+			font-size: 2em;
+
+		}
+
+		.google-map {
+			width: 100%;
+			display: block; 
+		}
 }
 
 .question {
